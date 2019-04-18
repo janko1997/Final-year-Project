@@ -1,0 +1,183 @@
+body {
+  background-color: rgba(250, 174, 103, 0.74);
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 20em;
+  margin-right: 5em;
+  font-style: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  color: black;
+}
+h2 {
+  display: block;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 25em;
+  margin-right: 5em;
+  font-style: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  color: black;
+}
+h3 {
+  display: block;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 25em;
+  margin-right: 5em;
+  font-style: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  color: black;
+}
+h4 {
+  display: block;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 25em;
+  margin-right: 5em;
+  font-style: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  color: black;
+}
+h5 {
+  display: block;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 25em;
+  margin-right: 5em;
+  font-style: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  color: black;
+}
+h6 {
+  display: block;
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 20em;
+  margin-right: 5em;
+  font-style: bold;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  color: black;
+}
+
+/* The side navigation menu */
+.sidenav {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  background-color: rgb(120, 132, 117);
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: rgb(85, 84, 84);
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.container:hover {
+  color: rgb(85, 84, 84);
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.footer {
+  outline-color: black;
+  outline-style: solid;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgb(152, 131, 143);
+  color: black;
+  text-align: center;
+}
+
+.paragraph {
+  width: 650px;
+  border: 15px ridge rgb(141, 170, 145);
+  padding: 50px;
+  margin: 30px;
+  line-height: 10px;
+  box-shadow: 5px 10px #888888;
+  position: absolute;
+  top: 15%;
+  left: 29%;
+}
+
+.p1 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.p2 {
+  font-size: 15px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}

@@ -1,7 +1,7 @@
 <div id="ActivitiesBody" class="header">
   <script src="JS/navigation.js"></script>
   <script src="JS/morningpage.js"></script>
-  <h3>Evening Activities</h3>
+  <h2>Evening Activities</h2>
   <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
       >&times;</a
@@ -10,64 +10,61 @@
     <a href="#morning">Morning Activities</a>
     <a href="#afternoon">Afternoon Activities</a>
     <a href="#evening">Evening Activities</a>
+    <a href="#oscar">Body movement with Oscar</a>
     <a href="#yesno">Yes or No</a>
     <a href="#feelings">How are you feeling today?</a>
   </div>
-  <table style="width:50%">
-    <tr>
-      <div class="container" onclick="openNav()">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </div>
-    </tr>
-    <tr>
-      <div id="main"></div>
-      <!-- Images -->
-      <div class="row">
-        <div class="column">
-          <div>
-            <div class="image">
-              <img src="/evening/dinner.jpg" style="width:250px" border="5" />
-            </div>
-            <div>
-              <p class="mytext">Eating dinner</p>
-            </div>
-          </div>
+
+  <div class="container" onclick="openNav()">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+
+  <div id="main"></div>
+  <!-- Images -->
+  <div class="row">
+    <div class="column">
+      <div>
+        <div class="image">
+          <img src="/evening/dinner.jpg" style="width:250px" border="5" />
         </div>
-        <div class="column">
-          <div>
-            <div class="image">
-              <img src="/evening/teeth.jpg" style="width: 250px;" border="5" />
-            </div>
-            <div>
-              <p class="mytext">Brushing teeth</p>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div>
-            <div class="image">
-              <img src="/evening/pijamas.jpg" style="width:250px" border="5" />
-            </div>
-            <dic>
-              <p class="mytext">Wearing pijamas</p>
-            </dic>
-          </div>
-        </div>
-        <div class="column">
-          <div>
-            <div class="image">
-              <img src="/evening/sleep.jpg" style="width:250px" border="5" />
-            </div>
-            <div>
-              <p class="mytext">Going to sleep</p>
-            </div>
-          </div>
+        <div>
+          <p class="mytext">Eating dinner</p>
         </div>
       </div>
-    </tr>
-  </table>
+    </div>
+    <div class="column">
+      <div>
+        <div class="image">
+          <img src="/evening/teeth.jpg" style="width: 250px;" border="5" />
+        </div>
+        <div>
+          <p class="mytext">Brushing teeth</p>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div>
+        <div class="image">
+          <img src="/evening/pijamas.jpg" style="width:250px" border="5" />
+        </div>
+        <div>
+          <p class="mytext">Wearing pijamas</p>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div>
+        <div class="image">
+          <img src="/evening/sleep.jpg" style="width:250px" border="5" />
+        </div>
+        <div>
+          <p class="mytext">Going to sleep</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <button class="btn_random" id="btn_random">Shuffle</button>
   <button class="btn_hide_unhide_text" id="btn_hide_unhide">Hide Text</button>

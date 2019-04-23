@@ -17,6 +17,9 @@ $(document).ready(() => {
   $('a[href="#feelings"]').click(() => {
     $('#mainBody').load('../feelings.html');
   });
+  $('a[href="#oscar"]').click(() => {
+    $('#mainBody').load('../oscar.html');
+  });
 });
 function openNav() {
   $('#mySidenav').width('250px');

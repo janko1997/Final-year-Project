@@ -35,7 +35,6 @@ h3 {
   margin-right: 5em;
   font-style: bold;
   font-family: "Comic Sans MS", cursive, sans-serif;
-
   color: black;
 }
 h4 {
@@ -153,10 +152,12 @@ h6 {
   position: fixed;
   left: 0;
   bottom: 0;
+  right:0;
   width: 100%;
   background: rgb(152, 131, 143);
   color: black;
   text-align: center;
+  
 }
 
 .paragraph {

@@ -18,7 +18,7 @@
   -webkit-box-shadow: 0 0 10px #ccc;
   box-shadow: 0 0 10px #ccc;
 }
-#container2 {
+#blank {
   position: absolute;
   top: 20%;
   left: 41.5%;
@@ -43,4 +43,9 @@
   position: absolute;
   top: 15%;
   left: 75%;
+}
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
 }

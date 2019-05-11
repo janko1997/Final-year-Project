@@ -1,13 +1,13 @@
-$(document).ready(function() {
-  // Shuffle images
-  $('#btn_random').click(function() {
+  //Shuffle images
+  $('.btn_random').click(function() {
     $('.row').html(
       $('.row .column').sort(function() {
         return Math.random() - 0.5;
       })
     );
   });
-  // Hide-unhide text
+
+  //Hide-unhide text
   $('.btn_hide_unhide_text').click(function() {
     const value = $('.btn_hide_unhide_text')
       .text()
@@ -35,4 +35,4 @@ $(document).ready(function() {
       $('.image').show();
     }
   });
-});
+

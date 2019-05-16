@@ -1,4 +1,5 @@
 $(document).ready(() => {
+  //AJAX requests
   $('a[href="#morning"]').click(() => {
     $('#mainBody').load('../morningAct.html');
   });
@@ -21,11 +22,13 @@ $(document).ready(() => {
     $('#mainBody').load('../oscar.html');
   });
 });
+//open navigation
 function openNav() {
   $('#mySidenav').width('250px');
   $('#main').css('marginLeft', '250px');
   $('body').css('background-color', 'rgba(250, 174, 103, 0.74)');
 }
+//close navigation
 function closeNav() {
   $('#mySidenav').width('0');
   $('#main').css('marginLeft', '0');

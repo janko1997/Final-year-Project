@@ -1,8 +1,3 @@
-// $(document).ready(() => {
-//   $('#yes').click(function() {
-//       $("#Yes.mp3")[0].play();
-//   });
-// });
 $(document).ready(function() {
   const obj1 = document.createElement('audio');
   obj1.src = '/sounds/Yes.mp3';
